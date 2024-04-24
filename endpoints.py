@@ -1,0 +1,5 @@
+auth = 'http://localhost:8080/realms/master/protocol/openid-connect/auth'
+token = 'http://localhost:8080/realms/master/protocol/openid-connect/token'
+jwks_uri = 'http://localhost:8080/realms/master/protocol/openid-connect/certs'
+expected_issuer = 'http://localhost:8080/realms/master'
+userinfo = 'http://localhost:8080/realms/master/protocol/openid-connect/userinfo'
